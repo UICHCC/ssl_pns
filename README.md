@@ -25,3 +25,4 @@ tested browser: Google Chrome Version 63.0.3239.132 (Official Build) (32-bit)
 
 1. Download the latest version of packed extension file `sslpns.crx` to your computer
 2. drag the file to the chrome Extensions page `chrome://extensions/`
+3. Click `Add extension`
