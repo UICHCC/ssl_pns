@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "SSL-PnS",
+  "version": "0.1.0",
+  "description": "Point-and-shoot site access via UIC SSL",
+  "content_scripts": [
+    {
+      "js": [
+        "jquery.min.js",
+        "url.js"
+      ],
+      "matches": [
+        "https://ssl.uic.edu.hk/dana/home/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": ["content.html"],
+  "icons": {
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  }
+}
